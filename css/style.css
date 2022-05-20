@@ -1,7 +1,7 @@
 :root{
     --primary-color: #333;
     --secondary-color: #444;
-    --overaly-color: rgba(0, 0, 0, 0.5) 
+    --overaly-color: rgba(0, 0, 0, 0.5) ;
 }
 {
     box-sizing: border-box;
@@ -52,6 +52,10 @@ img
 {
     font-size: 2rem;
 }
+.navbar .logo:hover
+{
+color: turquoise;
+}
 .navbar .nav
 {
      justify-self: flex-end;
@@ -65,7 +69,7 @@ img
 }
 .navbar .nav a:hover
 {
-    color: #555;
+color: coral;
 
 }
     /* ----- SECTION A  ------ */
@@ -90,12 +94,19 @@ img
 {
     margin: 1rem 0;
 }
-
+.section-a h1:hover
+{
+  color:coral;
+}
+.section-a p:hover
+{
+  color: turquoise;
+}
 .btn
 {
   display: inline; 
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: #333;;
+  color: white;
   padding: 0.8rem 1.5rem;
   border: none;
   cursor: pointer;
@@ -104,7 +115,7 @@ img
 }
 .btn:hover
 {
- background-color: var(--secondary-color);
+ background-color: turquoise;
 }
 
     /* ----- SECTION B  ------ */
@@ -172,4 +183,8 @@ img
 {
     width: 100%;
     height:100%;
+}
+.section-linker
+{
+    margin: 2rem 0;
 }
